@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Démarrer l'application lorsque le conteneur démarre
-CMD [ "node", "script.js" ]
+CMD [ "node", "app.js" ]
